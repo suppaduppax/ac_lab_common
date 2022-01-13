@@ -8,6 +8,11 @@ Create the collections directory
 mkdir -p collections/lab
 ```
 
+Change to the directory you just made
+```
+cd collections/lab
+```
+
 Add the submodule in the lab collection, renaming the `ac_lab_common` repo to `common` 
 ```
 git submodule add ssh://git@github.com/suppaduppax/ac_lab_common.git common
