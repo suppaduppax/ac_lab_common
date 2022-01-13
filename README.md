@@ -1,5 +1,7 @@
 Lab.Common Ansible Collection
 =============================
+This collection is part of the (lab)[https://github.com/suppaduppax/ac_lab] namespace.
+
 Installation
 ------------
 If this wasn't installed by cloning https://github.com/suppaduppax/ac_lab then ensure that the collection is cloned inside the collections/lab directory inside your ansible collections directory to keep documentation consistent. 
