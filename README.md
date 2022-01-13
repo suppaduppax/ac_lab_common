@@ -1,6 +1,6 @@
 Lab.Common Ansible Collection
 =============================
-This collection is part of the (lab)[https://github.com/suppaduppax/ac_lab] namespace.
+This collection is part of the [lab](https://github.com/suppaduppax/ac_lab) namespace.
 
 Installation
 ------------
