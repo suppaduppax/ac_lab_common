@@ -1,0 +1,7 @@
+---
+- name: Configure /etc/network/interfaces
+  become: true
+  template:
+    src: "interfaces_{{ 'dhcp' if dhcp_enabled else 'static' }}.j2"
+    dest: "/etc/network/interfaces"
+  register: set_network_interfaces_result
