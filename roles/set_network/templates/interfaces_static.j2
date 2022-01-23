@@ -15,10 +15,3 @@ iface {{ interfaces.iface }} inet static
   address {{ interfaces.address }}
   gateway {{ interfaces.gateway }}
   netmask {{ interfaces.netmask | default("255.255.255.0") }}
-{% if interfaces.nameservers is string %}
-  nameserver {{ interfaces.nameservers }} 
-{% else %}
-{% for nameserver in interfaces.nameservers | list %}
-  nameserver {{ nameserver }}
-{% endfor %}
-{% endif %}
